@@ -1,0 +1,63 @@
+2024-04-12 10:24:38,514 INFO    StreamThr :280117 [internal.py:wandb_internal():86] W&B internal server running at pid: 280117, started at: 2024-04-12 10:24:38.513097
+2024-04-12 10:24:38,516 DEBUG   HandlerThread:280117 [handler.py:handle_request():146] handle_request: status
+2024-04-12 10:24:38,523 INFO    WriterThread:280117 [datastore.py:open_for_write():87] open: /data2/jeongseokoh/jeongseokoh/bnn/wandb/run-20240412_102438-t5pyux4t/run-t5pyux4t.wandb
+2024-04-12 10:24:38,525 DEBUG   SenderThread:280117 [sender.py:send():379] send: header
+2024-04-12 10:24:38,539 DEBUG   SenderThread:280117 [sender.py:send():379] send: run
+2024-04-12 10:24:39,003 INFO    SenderThread:280117 [dir_watcher.py:__init__():211] watching files in: /data2/jeongseokoh/jeongseokoh/bnn/wandb/run-20240412_102438-t5pyux4t/files
+2024-04-12 10:24:39,003 INFO    SenderThread:280117 [sender.py:_start_run_threads():1124] run started: t5pyux4t with start time 1712885078.516011
+2024-04-12 10:24:39,015 DEBUG   HandlerThread:280117 [handler.py:handle_request():146] handle_request: check_version
+2024-04-12 10:24:39,015 DEBUG   SenderThread:280117 [sender.py:send_request():406] send_request: check_version
+2024-04-12 10:24:39,094 DEBUG   HandlerThread:280117 [handler.py:handle_request():146] handle_request: run_start
+2024-04-12 10:24:39,123 DEBUG   HandlerThread:280117 [system_info.py:__init__():26] System info init
+2024-04-12 10:24:39,123 DEBUG   HandlerThread:280117 [system_info.py:__init__():41] System info init done
+2024-04-12 10:24:39,123 INFO    HandlerThread:280117 [system_monitor.py:start():194] Starting system monitor
+2024-04-12 10:24:39,123 INFO    SystemMonitor:280117 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-12 10:24:39,124 INFO    HandlerThread:280117 [system_monitor.py:probe():214] Collecting system info
+2024-04-12 10:24:39,125 INFO    SystemMonitor:280117 [interfaces.py:start():190] Started cpu monitoring
+2024-04-12 10:24:39,126 INFO    SystemMonitor:280117 [interfaces.py:start():190] Started disk monitoring
+2024-04-12 10:24:39,127 INFO    SystemMonitor:280117 [interfaces.py:start():190] Started gpu monitoring
+2024-04-12 10:24:39,129 INFO    SystemMonitor:280117 [interfaces.py:start():190] Started memory monitoring
+2024-04-12 10:24:39,130 INFO    SystemMonitor:280117 [interfaces.py:start():190] Started network monitoring
+2024-04-12 10:24:39,178 DEBUG   HandlerThread:280117 [system_info.py:probe():150] Probing system
+2024-04-12 10:24:39,182 DEBUG   HandlerThread:280117 [system_info.py:_probe_git():135] Probing git
+2024-04-12 10:24:39,195 DEBUG   HandlerThread:280117 [system_info.py:_probe_git():143] Probing git done
+2024-04-12 10:24:39,195 DEBUG   HandlerThread:280117 [system_info.py:probe():198] Probing system done
+2024-04-12 10:24:39,195 DEBUG   HandlerThread:280117 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-97-generic-x86_64-with-glibc2.31', 'python': '3.12.2', 'heartbeatAt': '2024-04-12T01:24:39.178948', 'startedAt': '2024-04-12T01:24:38.493352', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/jeongseokO/bnn.git', 'commit': '8eaacd6b7288e332150b270029efdfa84f0083dd'}, 'email': 'jeongseok0112@gmail.com', 'root': '/data2/jeongseokoh/jeongseokoh/bnn', 'host': 'n02', 'username': 'jeongseokoh', 'executable': '/data2/jeongseokoh/miniconda3/envs/env01/bin/python', 'cpu_count': 64, 'cpu_count_logical': 64, 'cpu_freq': {'current': 1.562203125, 'min': 1500.0, 'max': 2800.0}, 'cpu_freq_per_core': [{'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.686, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.8, 'min': 1500.0, 'max': 2800.0}, {'current': 2.8, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.31, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 2.799, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}, {'current': 1.5, 'min': 1500.0, 'max': 2800.0}], 'disk': {'/': {'total': 849.1036987304688, 'used': 21.024791717529297}}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 8, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}], 'memory': {'total': 251.73305892944336}}
+2024-04-12 10:24:39,196 INFO    HandlerThread:280117 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-12 10:24:39,196 INFO    HandlerThread:280117 [system_monitor.py:probe():227] Publishing system info
+2024-04-12 10:24:39,197 DEBUG   HandlerThread:280117 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-12 10:24:40,005 INFO    Thread-12 :280117 [dir_watcher.py:_on_file_created():271] file/dir created: /data2/jeongseokoh/jeongseokoh/bnn/wandb/run-20240412_102438-t5pyux4t/files/conda-environment.yaml
+2024-04-12 10:24:43,375 DEBUG   HandlerThread:280117 [system_info.py:_save_conda():222] Saving conda packages done
+2024-04-12 10:24:43,379 INFO    HandlerThread:280117 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-12 10:24:43,386 DEBUG   SenderThread:280117 [sender.py:send():379] send: files
+2024-04-12 10:24:43,387 INFO    SenderThread:280117 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-12 10:24:43,554 DEBUG   HandlerThread:280117 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-12 10:24:43,554 DEBUG   SenderThread:280117 [sender.py:send_request():406] send_request: python_packages
+2024-04-12 10:24:43,556 DEBUG   HandlerThread:280117 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-12 10:24:43,557 DEBUG   HandlerThread:280117 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-12 10:24:43,557 DEBUG   SenderThread:280117 [sender.py:send_request():406] send_request: stop_status
+2024-04-12 10:24:43,558 DEBUG   HandlerThread:280117 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 10:24:43,841 DEBUG   SenderThread:280117 [sender.py:send():379] send: telemetry
+2024-04-12 10:24:44,009 INFO    Thread-12 :280117 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data2/jeongseokoh/jeongseokoh/bnn/wandb/run-20240412_102438-t5pyux4t/files/conda-environment.yaml
+2024-04-12 10:24:44,009 INFO    Thread-12 :280117 [dir_watcher.py:_on_file_created():271] file/dir created: /data2/jeongseokoh/jeongseokoh/bnn/wandb/run-20240412_102438-t5pyux4t/files/wandb-metadata.json
+2024-04-12 10:24:44,010 INFO    Thread-12 :280117 [dir_watcher.py:_on_file_created():271] file/dir created: /data2/jeongseokoh/jeongseokoh/bnn/wandb/run-20240412_102438-t5pyux4t/files/requirements.txt
+2024-04-12 10:24:44,138 INFO    wandb-upload_0:280117 [upload_job.py:push():131] Uploaded file /tmp/tmp6asjyrwiwandb/u6sjhw94-wandb-metadata.json
+2024-04-12 10:24:48,987 DEBUG   HandlerThread:280117 [handler.py:handle_request():146] handle_request: pause
+2024-04-12 10:24:48,987 INFO    HandlerThread:280117 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-12 10:24:48,987 INFO    HandlerThread:280117 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-12 10:24:48,988 INFO    HandlerThread:280117 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-12 10:24:48,989 INFO    HandlerThread:280117 [interfaces.py:finish():202] Joined disk monitor
+2024-04-12 10:24:48,989 DEBUG   SystemMonitor:280117 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-12 10:24:48,990 DEBUG   SystemMonitor:280117 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-12 10:24:48,990 DEBUG   SystemMonitor:280117 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-12 10:24:49,015 INFO    Thread-12 :280117 [dir_watcher.py:_on_file_created():271] file/dir created: /data2/jeongseokoh/jeongseokoh/bnn/wandb/run-20240412_102438-t5pyux4t/files/output.log
+2024-04-12 10:24:50,332 INFO    HandlerThread:280117 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-12 10:24:50,333 INFO    HandlerThread:280117 [interfaces.py:finish():202] Joined memory monitor
+2024-04-12 10:24:50,333 INFO    HandlerThread:280117 [interfaces.py:finish():202] Joined network monitor
+2024-04-12 10:24:50,334 DEBUG   HandlerThread:280117 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 10:24:50,334 DEBUG   SenderThread:280117 [sender.py:send():379] send: stats
+2024-04-12 10:24:51,018 INFO    Thread-12 :280117 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data2/jeongseokoh/jeongseokoh/bnn/wandb/run-20240412_102438-t5pyux4t/files/output.log
+2024-04-12 10:24:54,336 DEBUG   HandlerThread:280117 [handler.py:handle_request():146] handle_request: status_report
+2024-04-12 10:24:58,555 DEBUG   HandlerThread:280117 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-12 10:24:58,555 DEBUG   SenderThread:280117 [sender.py:send_request():406] send_request: stop_status
+2024-04-12 10:24:58,558 DEBUG   HandlerThread:280117 [handler.py:handle_request():146] handle_request: internal_messages
